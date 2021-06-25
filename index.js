@@ -6,3 +6,4 @@ var ctx = {b : 5};
 var transformed =  _.map(arr, function(obj) {return obj.a + this.b}, ctx);
 
 console.log(transformed.join(', '));
+yum
